@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   list-style-type: none;
   align-items: center;
-  padding: 4px 16px;
+  padding: 0;
   /* justify-content: center; */
 }
 
@@ -68,12 +68,77 @@ ul li:nth-child(4) {
   border: none;
   background-color: #e1e1e1;
   font-size: 16px;
-  border-radius: 30px;
-  padding: 0.7rem 2rem;
+  border-radius: 40px;
+  padding: 0.9rem 2rem;
 }
 
 .search-icon {
   margin-right: -26px;
+}
+
+/* notification icon */
+ul li:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+ul li:nth-child(5):hover {
+  background-color: #f0f0f0;
+}
+
+/* messages icon */
+ul li:nth-child(6) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+ul li:nth-child(6):hover {
+  background-color: #f0f0f0;
+}
+
+/* user icon */
+ul li:nth-child(7) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+ul li:nth-child(7):hover {
+  background-color: #f0f0f0;
+}
+
+/* account options menu icon */
+ul li:nth-child(8) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+ul li:nth-child(8):hover {
+  background-color: #f0f0f0;
+}
+
+.item1 {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ---- grid ---- */
