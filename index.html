@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pinterest clone</title>
   <link rel="stylesheet" href="style.css">
+  <link id="dynamic-favicon" rel="shortcut icon" type="image/x-icon"
+    href="https://s.pinimg.com/webapp/favicon-54a5b2af.png">
 </head>
 
 <body>
@@ -16,7 +18,7 @@
         <ion-icon name="logo-pinterest"></ion-icon>
       </li>
       <li>Home</li>
-      <li>Create <ion-icon name="chevron-down-outline"></ion-icon>
+      <li>Create <ion-icon name="chevron-down-outline" class="create-dropdown"></ion-icon>
       </li>
       <li>
         <ion-icon name="search" class="search-icon"></ion-icon><input class="input-search" type="text"
@@ -40,7 +42,10 @@
   <div class="grid-container">
     <div class="grid">
 
-      <div class="item1"><div class="grid-item"><img src="images/img1.jpg" alt=""></div><p>fuckhead</p></div>
+      <div class="item1">
+        <div class="grid-item"><img src="images/img1.jpg" alt=""></div>
+        <p>fuckhead</p>
+      </div>
       <div class="grid-item grid-item--height3"><img src="images/img2.jpg" alt=""></div>
       <div class="grid-item grid-item--height4"><img src="images/img3.jpg" alt=""></div>
       <div class="grid-item"><img src="images/img4.jpg" alt=""></div>
