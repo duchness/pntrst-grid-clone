@@ -241,12 +241,12 @@ ul li:nth-child(8):hover {
 
 /* ---- grid-item ---- */
 .grid-item {
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   width: 236px;
   height: 354px;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 46px;
   border-radius: 16px;
 }
 
